@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#009999"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/headerTextViewID"
+        android:text="Header"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/addServiceButtonID"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="50dp"
+        android:drawableStart="@drawable/add_payment_method_btn_2x"
+        android:text="Add Service"
+        android:textSize="20sp"
+        android:focusable="false"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:background="#5e93fc"/>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/uttaraID"
+        android:title="Uttara"/>
+
+    <item
+        android:id="@+id/khilkhetID"
+        android:title="Khilkhet"/>
+
+    <item
+        android:id="@+id/dhanmondiID"
+        android:title="Dhanmondi"/>
+    <item
+        android:id="@+id/gulsionID"
+        android:title="Gulsion"/>
+    <item
+        android:id="@+id/bananiID"
+        android:title="Banani"/>
+
+</menu>

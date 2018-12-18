@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageViewOwnerID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/owner1" />
+
+    <TextView
+        android:id="@+id/textViewOwnerFullNameID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="22dp"
+        android:text="Owner Name"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewOwnerAddressID"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewOwnerFullNameID"
+        android:layout_below="@+id/textViewOwnerFullNameID"
+        android:text="Owner Address"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/imageViewAvailableNowID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textViewOwnerFullNameID"
+        android:layout_marginTop="73dp"
+        android:layout_marginStart="-14dp"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/available_icon" />
+
+    <TextView
+        android:id="@+id/textViewAvailableNowID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textSize="18sp"
+        android:layout_marginTop="83dp"
+        android:layout_marginStart="-10dp"
+        android:layout_toEndOf="@+id/imageViewAvailableNowID"
+        android:text="Available now" />
+
+    <ImageView
+        android:id="@+id/imageViewRatingIconID1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageViewOwnerID"
+        android:layout_toEndOf="@+id/textViewOwnerAddressID"
+        android:layout_marginStart="1dp"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/rating_icon" />
+    <ImageView
+        android:id="@+id/imageViewRatingIconID2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageViewOwnerID"
+        android:layout_toEndOf="@id/imageViewRatingIconID1"
+        android:layout_marginStart="-25dp"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/rating_icon"/>
+    <ImageView
+        android:id="@+id/imageViewRatingIconID3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageViewOwnerID"
+        android:layout_toEndOf="@id/imageViewRatingIconID2"
+        android:layout_marginStart="-25dp"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/rating_icon"/>
+    <ImageView
+        android:id="@+id/imageViewRatingIconID4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageViewOwnerID"
+        android:layout_toEndOf="@id/imageViewRatingIconID3"
+        android:layout_marginStart="-25dp"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/rating_icon"/>
+    <ImageView
+        android:id="@+id/imageViewRatingIconID5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageViewOwnerID"
+        android:layout_toEndOf="@id/imageViewRatingIconID4"
+        android:layout_marginStart="-25dp"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/rating_icon"/>
+
+    <TextView
+        android:id="@+id/textViewReviewsID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:layout_alignStart="@+id/imageViewRatingIconID2"
+        android:layout_alignTop="@+id/imageViewAvailableNowID"
+        android:text="(4 Reviews)" />
+</RelativeLayout>

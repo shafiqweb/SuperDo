@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_homeID"
+            android:icon="@drawable/home_btn_navigation"
+            android:title="@string/home_nav_service_category" />
+        <item
+            android:id="@+id/nav_bookingID"
+            android:icon="@drawable/bookings_btn_navigation"
+            android:title="@string/booking_nav_service_category" />
+        <item
+            android:id="@+id/nav_favoriteID"
+            android:icon="@drawable/favourites_btn_navigation"
+            android:title="@string/favorite_nav_service_category" />
+        <item
+            android:id="@+id/nav_payment_methodID"
+            android:icon="@drawable/payment_method_btn_navigation"
+            android:title="@string/payment_method_nav_service_category" />
+        <item
+            android:id="@+id/nav_sign_outID"
+            android:icon="@drawable/sign_out_btn_navigation"
+            android:title="@string/sign_out_nav_service_category" />
+    </group>
+</menu>

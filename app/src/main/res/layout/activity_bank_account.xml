@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.BankAccountActivity">
+    <android.support.design.widget.AppBarLayout
+    android:id="@+id/appbarBankAccountID"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/AppTheme.AppBarOverlay">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#c245d2"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/bank_accounts_text"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </android.support.v7.widget.Toolbar>
+</android.support.design.widget.AppBarLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:text="@string/set_a_bank_account_bellow"/>
+    <EditText
+        android:id="@+id/editTextAccountNameID"
+        android:layout_width="350dp"
+        android:layout_height="39dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/edit_text_border"
+        android:ems="10"
+        android:hint="@string/account_name"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:paddingEnd="0dp"
+        android:paddingStart="2dp" />
+    <EditText
+        android:id="@+id/editTextAccountNumberID"
+        android:layout_width="350dp"
+        android:layout_height="39dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/edit_text_border"
+        android:ems="10"
+        android:hint="@string/account_number"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:paddingEnd="0dp"
+        android:paddingStart="2dp" />
+    <EditText
+        android:id="@+id/editTextBankNameID"
+        android:layout_width="350dp"
+        android:layout_height="39dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/edit_text_border"
+        android:ems="10"
+        android:hint="@string/bank_name"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:paddingEnd="0dp"
+        android:paddingStart="2dp" />
+    <EditText
+        android:id="@+id/editTextBranchID"
+        android:layout_width="350dp"
+        android:layout_height="39dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/edit_text_border"
+        android:ems="10"
+        android:hint="@string/branch"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:paddingEnd="0dp"
+        android:paddingStart="2dp" />
+    <EditText
+        android:id="@+id/editTextRoutingNoID"
+        android:layout_width="350dp"
+        android:layout_height="39dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/edit_text_border"
+        android:ems="10"
+        android:hint="@string/routing_no"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:paddingEnd="0dp"
+        android:paddingStart="2dp" />
+    <Button
+        android:id="@+id/buttonSaveBankAccountID"
+        android:layout_width="246dp"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/request_booking_button_design"
+        android:text="@string/save"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+</RelativeLayout>

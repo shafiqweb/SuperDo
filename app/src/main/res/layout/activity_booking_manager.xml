@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout_booking_managerID"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:override="true">
+
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context=".activities.BookingManagerActivity">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appbarBookingManagerID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbarID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#c245d2"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:popupTheme="@style/AppTheme.PopupOverlay">
+
+                <TextView
+                    android:id="@+id/toolbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/booking_manager_text"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+            </android.support.v7.widget.Toolbar>
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/booking_manager_activityTabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#5d0573"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                app:tabIndicatorColor="#1a40ec"
+                app:tabIndicatorHeight="2dp"
+                app:tabSelectedTextColor="#e739fd"
+                app:tabTextAppearance="@style/TabLayoutStyle"
+                app:tabTextColor="@android:color/white">
+
+                <android.support.design.widget.TabItem
+                    android:id="@+id/homeServiceProviderTab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tab_text_home" />
+
+                <android.support.design.widget.TabItem
+                    android:id="@+id/outdoorServiceProviderTab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tab_text_outdoor" />
+
+            </android.support.design.widget.TabLayout>
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPagerHomeOutdoorID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    </android.support.design.widget.CoordinatorLayout>
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view_booking_managerID"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_marginTop="80dp"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_booking_manager"
+        app:menu="@menu/menu_drawer_view_booking_manager" />
+</android.support.v4.widget.DrawerLayout>

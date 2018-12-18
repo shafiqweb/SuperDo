@@ -1,0 +1,181 @@
+<resources>
+    <string name="app_name">SuperDo</string>
+    <string name="remember_id">Remember ID</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="title_forgot_password">Forgot Password</string>
+    <string name="login">Login</string>
+    <string name="new_user">New User?</string>
+    <string name="facebook_login">Facebook Login</string>
+    <string name="google_login">Google Login</string>
+    <string name="or">Or</string>
+    <string name="my_text"><u>Sign Up</u>.</string>
+    <string name="service_category">Service Category</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_service_category">ServiceCategory</string>
+    <string name="tab_text_customer">As Customer</string>
+    <string name="last_name">Last Name</string>
+    <string name="select_a_profile_picture">Select a profile picture</string>
+    <string name="first_name">First Name</string>
+    <string name="ddmmyyyy">DD/MM/YYYY</string>
+    <string name="email">Email</string>
+    <string name="country_code">+880</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up_button">Sign Up</string>
+    <string name="tab_text_provider">As Provider</string>
+    <string name="action_settings">Settings</string>
+    <string name="back_button">Back</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="facebook_app_id">497059284048344</string>
+    <string name="fb_login_protocol_scheme">fb497059284048344</string>
+    <string name="showImageNameTextView">ImageNameTextView</string>
+    <string name="title_activity_specific_service">SpecificServiceActivity</string>
+    <string name="title_search_specific_service">Search a specific service</string>
+    <string name="tab_text_home">Home Service</string>
+    <string name="uttara">Uttara</string>
+    <string name="tab_text_outdoor"> Outdoor Service</string>
+    <string name="title_activity_owner_details">OwnerDetailsActivity</string>
+    <string name="tab_text_profile">Profile</string>
+    <string name="tab_text_pricing">Pricing</string>
+    <string name="tab_text_reviews">Reviews</string>
+    <string name="my_text_business_hour"><b><u>Business Hours</u></b></string>
+    <string name="title_activity_booking_detail">BookingDetailActivity</string>
+    <string name="booking_details">Booking Details</string>
+    <string name="owner_full_name">Owner Full Name</string>
+    <string name="select_service">Select Service</string>
+    <string name="select_available_date">Select Available Date</string>
+    <string name="select_available_time">Select Available Time</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="confirm_booking">Confirm Booking</string>
+    <string name="cancel_booking">Cancel Booking</string>
+    <string name="clipper_cut">Clipper Cut</string>
+    <string name="women_haircut">Women Haircutt</string>
+    <string name="men_haircut">Men Haircut</string>
+    <string name="blow_dry">Blow-Dry</string>
+    <string name="owner_name">Owner Name</string>
+    <string name="reviews">(4 Reviews)</string>
+    <string name="owner_location">H:15,Sonargaon Janapath,Dhaka-1230</string>
+    <string name="monday">Monday:  9.00am-5.00pm"</string>
+    <string name="tuesday">Tuseday:  9.00am-5.00pm</string>
+    <string name="wednesday">Wednesday:  9.00am-5.00pm</string>
+    <string name="thursday">Thursday:  9.00am-5.00pm</string>
+    <string name="friday">Friday:  9.00am-5.00pm</string>
+    <string name="saturday">Saturday:  9.00am-5.00pm</string>
+    <string name="request_booking_with">Request Booking with</string>
+    <string name="textview_email">Send a recovery code to Email Address</string>
+    <string name="edittext_email">Email Address</string>
+    <string name="send_email">Send Code</string>
+    <string name="title_verify_code">Verify Code</string>
+    <string name="text_view_enter_code">Enter Code</string>
+    <string name="edit_text_recovery_code">Recovery Code</string>
+    <string name="button_text_verify">Verify</string>
+    <string name="title_reset_password">Reset Password</string>
+    <string name="text_view_enter_new_password">Enter New Password</string>
+    <string name="edit_text_reset_password">Password</string>
+    <string name="edit_text_reset_confirm_password">Confirm Password</string>
+    <string name="button_text_reset_password">Reset Password</string>
+    <string name="terms_condition"><u>Terms and Condition</u>.</string>
+    <string name="i_agree">I agree</string>
+    <string name="company_name">Company Name</string>
+    <string name="address">Address</string>
+    <string name="nid">NID</string>
+    <string name="tin">TIN</string>
+    <string name="trade_license">Trade License</string>
+    <string name="company_profile">Company profile…</string>
+    <string name="title_pending_confirmation">Pending Confirmation</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="message_about_pending_confirmation">Thanks!</string>
+    <string name="button_text_view_my_booking">View My Bookings</string>
+    <string name="home_nav_service_category">HOME</string>
+    <string name="booking_nav_service_category">BOOKING</string>
+    <string name="favorite_nav_service_category">FAVORITE</string>
+    <string name="payment_method_nav_service_category">PAYMENT METHOD</string>
+    <string name="sign_out_nav_service_category">SIGN OUT</string>
+    <string name="nav_owner_name">Customer Name</string>
+    <string name="booking">Booking List</string>
+    <string name="payment_methods">Payment Methods</string>
+    <string name="add_payment_method">Add Payment Method</string>
+    <string name="name_on_card">Name on card</string>
+    <string name="card_number">Card Number</string>
+    <string name="expiry_mm">Expiry mm</string>
+    <string name="expiry_yyyy">Expiry yyyy</string>
+    <string name="cvv">CVV</string>
+    <string name="save">Save</string>
+    <string name="profile">Profile</string>
+    <string name="change_a_profile_picture">Change profile picture</string>
+    <string name="change_password">Change Password</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="enter_old_password">Enter Old Password</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="favourites">Favourites</string>
+    <string name="title_activity_booking_manager">BookingManagerActivity</string>
+    <string name="booking_manager_text">Booking Manager</string>
+    <string name="booking_manager">BOOKING MANAGER</string>
+    <string name="availabitity">AVAILABILITY</string>
+    <string name="locations">LOCATIONS</string>
+    <string name="services">SERVICES</string>
+    <string name="bank_accounts">BANK ACCOUNTS</string>
+    <string name="wallet">WALLET</string>
+    <string name="nav_provider_name">Provider Name</string>
+    <string name="sign_out_provider">SIGN OUT</string>
+    <string name="bank_accounts_text">Bank Accounts</string>
+    <string name="set_a_bank_account_bellow">Set a bank account bellow:</string>
+    <string name="account_name">Account Name</string>
+    <string name="account_number">Account Number</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="branch">Branch</string>
+    <string name="routing_no">Routing No.</string>
+    <string name="wallet_text">SuperDo Wallet</string>
+    <string name="balance_wallet_bdt">BALANCE 10,800.00 BDT. \n 10 APR 2018</string>
+    <string name="recent_transaction">Recent Transaction</string>
+    <string name="date_column">Date</string>
+    <string name="description_column">Description</string>
+    <string name="type_column">Type</string>
+    <string name="amount_column">Amount</string>
+    <string name="search_location_text">Search Location</string>
+    <string name="enter_city">Enter City</string>
+    <string name="services_text">Services</string>
+    <string name="add_service">Add Service - </string>
+    <string name="header_text">Header Text</string>
+    <string name="upload_your_service_photo_max_3">Upload your service photo(Max-3)</string>
+    <string name="add_sub_category">Add sub category</string>
+    <string-array name="child_list">
+        <item>
+            How are you \n I am fine \n who r u
+        </item>
+        <item>
+            Yes who r u \n I am robot
+        </item>
+        <item>
+        </item>
+        <item>
+            Yes
+        </item>
+        <item>
+            Yes
+        </item>
+        <item>
+            Yes
+        </item>
+        <item>
+            Yes
+        </item>
+        <item>
+            Yes
+        </item>
+        <item>
+            Yes
+        </item>
+        <item>
+            Yes
+        </item>
+        <item>
+            Yes
+        </item>
+        <item>
+            Yes
+        </item>
+    </string-array>
+</resources>

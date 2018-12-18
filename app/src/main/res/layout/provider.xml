@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/providerScrollViewID"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageViewProviderProfilePictureID"
+        android:layout_width="66dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@null"
+        android:background="@drawable/profile_picture_circle_png_blank"
+        app:srcCompat="@drawable/profile_picture_circle_png_blank" />
+
+    <TextView
+        android:id="@+id/textViewSelectProviderProfilePictureID"
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/select_a_profile_picture"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout_basic_businessTabsID"
+        android:layout_width="374dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/tab_border_design_final"
+        app:tabBackground="@drawable/tab_colour_selector"
+        app:tabIndicatorHeight="0dp"
+        app:tabSelectedTextColor="#FFFFFF"
+        app:tabTextAppearance="@android:style/TextAppearance.WindowTitle"
+        app:tabTextColor="#000000">
+
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPagerBasicBusinessID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="7dp"
+        android:layout_marginTop="135dp" />
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.shafiq.designproject2.activities.SpecificServiceActivity">
+    <item
+        android:id="@+id/searchViewID"
+        android:title="@string/action_settings"
+        android:icon="@drawable/search_services_btn"
+        app:showAsAction="always"
+        android:orderInCategory="50"
+        app:actionViewClass="android.widget.SearchView" />
+    <item
+        android:id="@+id/action_settings_navigateID"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:icon="@drawable/navigation_btn"
+        app:showAsAction="ifRoom" />
+
+
+</menu>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_item_bookingManagerID"
+            android:icon="@drawable/booking_manager_btn"
+            android:title="@string/booking_manager" />
+        <item
+            android:id="@+id/nav_item_availabilityID"
+            android:icon="@drawable/availablity_btn_navigation"
+            android:title="@string/availabitity" />
+        <item
+            android:id="@+id/nav_item_locationID"
+            android:icon="@drawable/locations_btn_navigation1x"
+            android:title="@string/locations" />
+        <item
+            android:id="@+id/nav_item_serviceID"
+            android:icon="@drawable/services_btn_navigation1x"
+            android:title="@string/services" />
+        <item
+            android:id="@+id/nav_item_bankAccountID"
+            android:icon="@drawable/bank_account_btn_navigation"
+            android:title="@string/bank_accounts" />
+        <item
+            android:id="@+id/nav_item_walletID"
+            android:icon="@drawable/wallet_btn_navigation"
+            android:title="@string/wallet" />
+        <item
+            android:id="@+id/nav_item_signOutID"
+            android:icon="@drawable/sign_out_btn_navigation"
+            android:title="@string/sign_out_provider" />
+    </group>
+</menu>

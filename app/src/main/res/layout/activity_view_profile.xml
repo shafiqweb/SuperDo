@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.ViewProfileActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_view_profileID"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#c245d2"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+        <ImageView
+            android:id="@+id/back_button_view_profile_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/back_btn" />
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/profile"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </android.support.v7.widget.Toolbar>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageViewProfilePictureID"
+        android:layout_width="69dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/profile_picture_circle_png_blank"
+        android:visibility="visible"
+        app:srcCompat="@drawable/profile_picture_circle_png_blank"
+        android:contentDescription="@null" />
+    <TextView
+        android:id="@+id/textViewChangeProfilePictureID"
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="82dp"
+        android:text="@string/change_a_profile_picture"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+    <EditText
+        android:id="@+id/editTextFirstNameID"
+        android:layout_width="350dp"
+        android:layout_height="34dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/edit_text_border"
+        android:ems="10"
+        android:hint="@string/first_name"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:paddingEnd="0dp"
+        android:paddingStart="2dp" />
+    <EditText
+        android:id="@+id/editTextLastNameID"
+        android:layout_width="350dp"
+        android:layout_height="34dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="195dp"
+        android:background="@drawable/edit_text_border"
+        android:ems="10"
+        android:hint="@string/last_name"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:paddingEnd="0dp"
+        android:paddingStart="2dp" />
+    <EditText
+        android:id="@+id/editTextDateBirthID"
+        android:layout_width="350dp"
+        android:layout_height="36dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/edit_text_border"
+        android:cursorVisible="true"
+        android:ems="10"
+        android:hint="@string/ddmmyyyy"
+        android:imeOptions="actionNext"
+        android:inputType="date"
+        android:paddingEnd="0dp"
+        android:paddingStart="2dp" />
+    <EditText
+        android:id="@+id/editTextEmailID"
+        android:layout_width="350dp"
+        android:layout_height="36dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="285dp"
+        android:background="@drawable/edit_text_border"
+        android:cursorVisible="true"
+        android:ems="10"
+        android:hint="@string/email"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:paddingEnd="0dp"
+        android:paddingStart="2dp" />
+    <EditText
+        android:id="@+id/editTextPhoneNumberID"
+        android:layout_width="350dp"
+        android:layout_height="36dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/edit_text_border"
+        android:cursorVisible="true"
+        android:ems="10"
+        android:imeOptions="actionDone"
+        android:inputType="phone"
+        android:text="@string/country_code"
+        tools:ignore="LabelFor" />
+    <Button
+        android:id="@+id/buttonChangePasswordID"
+        android:layout_width="246dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="420dp"
+        android:drawableStart="@drawable/lock2"
+        android:paddingStart="5dp"
+        android:paddingEnd="0dp"
+        android:background="@drawable/request_booking_button_design"
+        android:text="@string/change_password"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+    <Button
+        android:id="@+id/buttonSignOutID"
+        android:layout_width="246dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/request_booking_button_design"
+        android:text="@string/sign_out"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+
+</RelativeLayout>

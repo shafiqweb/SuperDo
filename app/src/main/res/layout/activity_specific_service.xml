@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content_specific"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activities.SpecificServiceActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbarSpecificServiceID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarSpecificServiceID"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#c245d2"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <ImageView
+                android:id="@+id/back_buttonID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="5dp"
+                android:layout_marginStart="1dp"
+                android:paddingStart="0dp"
+                android:contentDescription="@null"
+                android:src="@drawable/back_btn" />
+
+            <!--<ImageView-->
+                <!--android:id="@+id/search_btnID"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:src="@drawable/search_services_btn"-->
+                <!--android:contentDescription="@null" />-->
+
+            <TextView
+                android:id="@+id/textViewSearchID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_search_specific_service"
+                android:textColor="#FFFFFF"
+                android:gravity="start"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+        </android.support.v7.widget.Toolbar>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/specificServiceTabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#5d0573"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            app:tabIndicatorColor="#1a40ec"
+            app:tabIndicatorHeight="2dp"
+            app:tabSelectedTextColor="#e739fd"
+            app:tabTextAppearance="@style/TabLayoutStyle"
+            app:tabTextColor="@android:color/white">
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/homeServiceTab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tab_text_home" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/outdoorServiceTab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tab_text_outdoor" />
+
+        </android.support.design.widget.TabLayout>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/containerSpecificServiceID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="?attr/actionBarSize"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+</android.support.design.widget.CoordinatorLayout>
